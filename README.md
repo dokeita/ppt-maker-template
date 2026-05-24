@@ -4,11 +4,11 @@ AIとの対話を通じて、設計→デザイン→生成のフローでPowerP
 
 ## テンプレートとしての使い方
 
-このリポジトリは資料作成のテンプレートです。新しい資料を作成するたびに `git clone` して使います。
+このリポジトリは資料作成のテンプレートです。新しい資料を作成するたびにテンプレートからリポジトリを作成して使います。
 
 ```bash
-git clone https://github.com/dokeita/ppt-maker-template.git {ディレクトリ名}
-cd {ディレクトリ名}
+gh repo create {リポジトリ名} --template dokeita/ppt-maker-template --private --clone
+cd {リポジトリ名}
 ```
 
 ## セットアップ
