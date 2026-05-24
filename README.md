@@ -2,6 +2,15 @@
 
 AIとの対話を通じて、設計→デザイン→生成のフローでPowerPoint資料を作成するシステムです。
 
+## テンプレートとしての使い方
+
+このリポジトリは資料作成のテンプレートです。新しい資料を作成するたびに `git clone` して使います。
+
+```bash
+git clone https://github.com/dokeita/ppt-maker-template.git {ディレクトリ名}
+cd {ディレクトリ名}
+```
+
 ## セットアップ
 
 ```bash
