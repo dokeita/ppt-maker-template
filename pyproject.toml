@@ -1,0 +1,7 @@
+[project]
+name = "ai-pptx-generator"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "python-pptx==0.6.23",
+]
